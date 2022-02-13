@@ -1,0 +1,31 @@
+var x , y [ 4 ] ;
+procedure A ;
+	var y , b [ 3 ] , helper;
+	procedure C ;
+		begin
+			write x + y [ 3 ];
+			do
+				begin
+					helper := helper - 1;
+					if helper >= 0 ? call C
+				end
+			while 3 > 4
+		end ;
+	begin
+		b [ 0 ] := 3 ;
+		b [ 1 ] := 4 ;
+		b [ 2 ] := - 1 ;
+		x := b [ 7 - 5 ] + b [ ( b [ 1 ] + b [ 0 ] ) / 7 ] ;
+		read y ;
+		if b [ 1 ] > y [ 3 ] ? y [ 1 ] := y ;
+		helper := 1;
+		call C ;
+	end ;
+begin
+	read y [ 1 ] ;
+	y [ 3 ] := 4 * ( 7 + 13 ) ;
+	call A ;
+	if y [ 1 ] <> x ? 
+		y [ 0 ] := 2 
+	: y [ 2 ] := 0 ;
+end .
