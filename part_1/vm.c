@@ -1,7 +1,7 @@
-/*
+ /*
  * TEAM MEMBER NAMES:
- *  - Raciel Antela Pardo
  *  - Jan Darge
+ *  - Raciel Antela Pardo
  *  - Celina Alzenor
  */
 
@@ -16,13 +16,13 @@
 #define ERROR_SO \
     do { \
         printf("Virtual Machine Error: Out of Bounds Access Error\n"); \
-        goto HALT; \
+        goto BREAK; \
     } while (0)
 
 #define ERROR_OB \
     do { \
         printf("Virtual Machine Error: Stack Overflow Error\n"); \
-        goto HALT; \
+        goto BREAK; \
     } while (0)
 
 void print_execution(int line, char *opname, instruction IR, int PC, int BP, int SP, int *stack, int *RF) {
@@ -311,6 +311,10 @@ void execute_program(instruction *IR, int printFlag) {
 
         strcpy(str, opname(IR[start_pos].opcode));
         print_execution(start_pos, str, IR[start_pos], PC, BP, SP, stack, RF);
+        continue;
+
+        BREAK:
+            halt = 1;
     } // END WHILE
 
     free(str);
