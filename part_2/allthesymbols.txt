@@ -1,0 +1,12 @@
+var x, [3];
+procedure func
+	// this program should generate a parser error
+	if <> ? problem : bueno
+	y(2) := 4 * 8 % 11
+	end
+begin
+	call
+	do
+	while > < == candy : /**/
+	read write <===>=-+
+.
