@@ -1,0 +1,9 @@
+procedure H;
+	procedure J;
+		call J;
+	;
+procedure J;
+	procedure M;
+		call H;
+	call M;
+call J.

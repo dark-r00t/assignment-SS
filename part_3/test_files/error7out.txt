@@ -1,0 +1,1 @@
+Parser Error: Symbol declarations should close with a semicolon

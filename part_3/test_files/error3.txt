@@ -1,0 +1,59 @@
+var a, a, z[2], y[3];
+procedure H;
+	var z, a[3], c, x[1];
+	procedure J;
+		call J;
+	begin
+		if 3 > 6 ?
+			begin
+				read a[1];
+				read z;
+			end;
+		y[1] := 2;
+		b := 3;
+		y[3 - 2] := 7;
+		a[0] := 13;
+		z := 2;
+	end;
+procedure J;
+	var b, y[2], k, j;
+	procedure M;
+		begin
+			call H;
+			if 7 < 3 ?
+				begin
+					read a;
+					read z[1];
+					read z[3 - 3];
+					read b;
+					read y[0];
+					read y[0 + 1];
+					write 1;
+					write 2 * 3;
+					z[0] := 3;
+					z[0+1] := 8;
+					a := 2;
+				end;
+		end;
+	begin
+		call M;
+	end;
+begin
+	call J;
+	if 4 / 2 == 1 ?
+		begin
+			read a;
+			read y[2];
+			read y[3/3];
+		end;
+	a := 3;
+	y[0] := 1;
+	z[0+1] := 2;
+	
+	do
+		begin
+			a := y[0] * y[0+1] + b;
+			b := 8 % 4 + (-1 + 5);
+		end
+	while 3 <> 3;
+end.

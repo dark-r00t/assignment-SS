@@ -1,0 +1,1 @@
+Parser Error: Multiple symbols in var declaration must be separated by commas

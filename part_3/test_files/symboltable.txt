@@ -1,0 +1,12 @@
+var a, b, z[2], y[3];
+procedure H;
+	var z, a[3], c, x[1];
+	procedure J;
+		;
+	;
+procedure J;
+	var b, y[2], k, j;
+	procedure M;
+		;
+	;
+.

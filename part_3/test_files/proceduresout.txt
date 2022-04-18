@@ -1,0 +1,24 @@
+Symbol Table:
+Kind | Name        | Size | Level | Address | Mark
+---------------------------------------------------
+   3 |        main |     0 |    0 |    12 |     1
+   3 |           H |     0 |    0 |     4 |     1
+   3 |           J |     0 |    1 |     1 |     1
+   3 |           J |     0 |    0 |     9 |     1
+   3 |           M |     0 |    1 |     6 |     1
+Line	OP Code	OP Name	R	L	M
+0	7	JMP	0	0	12
+1	6	INC	0	0	3
+2	5	CAL	0	1	1
+3	2	RET	0	0	0
+4	6	INC	0	0	3
+5	2	RET	0	0	0
+6	6	INC	0	0	3
+7	5	CAL	0	2	4
+8	2	RET	0	0	0
+9	6	INC	0	0	3
+10	5	CAL	0	0	6
+11	2	RET	0	0	0
+12	6	INC	0	0	3
+13	5	CAL	0	0	9
+14	11	HLT	0	0	0
