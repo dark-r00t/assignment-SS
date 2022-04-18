@@ -1,10 +1,3 @@
- /*
- * TEAM MEMBER NAMES:
- *  - Jan Darge
- *  - Raciel Antela Pardo
- *  - Celina Alzenor
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
