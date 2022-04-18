@@ -1,9 +1,3 @@
-/* Group Members
-  Jan Darge
-  Celina Alzenor
-  Raciel Antela Pardo
-*/
-
 #include "compiler.h"
 #include <ctype.h>
 #include <stdio.h>
