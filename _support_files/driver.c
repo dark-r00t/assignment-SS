@@ -1,9 +1,3 @@
-/*
-	This is the driver for Almalki's Spring 2022 Systems Software Project
-	If you choose to alter this, you MUST make a note of that in your
-	readme file, otherwise you will lose 5 points.
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include "compiler.h"
