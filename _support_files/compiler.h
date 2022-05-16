@@ -1,9 +1,3 @@
-/* 
-	This is the header file for Almalki's Spring 2022 Systems Software Project.
-	If you choose to alter this, you MUST make a note of that in your
-	readme file, otherwise you will lose 5 points.
-*/
-
 typedef enum token_type {
 	periodsym = 1, varsym, lbracketsym, procsym, rbracketsym, 
 	callsym, commasym, beginsym, semicolonsym, endsym, 
